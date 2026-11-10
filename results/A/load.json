@@ -1,0 +1,21 @@
+{
+ "levels": [
+  {
+   "rate": 0.25,
+   "requests": 80,
+   "errors": 0,
+   "wall_s": 290.02122066800007,
+   "ttft_p50": 1.0383078414998863,
+   "ttft_p95": 1.871584157149948,
+   "tpot_p50": 0.07985259110924411,
+   "tpot_p95": 0.1508424365413007,
+   "e2e_p95": 12.317928266850139,
+   "out_tok_per_s": 17.712496996488916,
+   "mean_out_tokens": 64.2125,
+   "passes": false,
+   "passes_relaxed": false
+  }
+ ],
+ "capacity_rps": 0.0,
+ "capacity_relaxed_rps": 0.0
+}

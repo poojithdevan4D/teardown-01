@@ -1,0 +1,1266 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Parse safetensors files:   0%|          | 0/2 [00:00<?, ?it/s]Parse safetensors files:  50%|█████     | 1/2 [00:00<00:00,  2.11it/s]Parse safetensors files: 100%|██████████| 2/2 [00:00<00:00,  2.68it/s]Parse safetensors files: 100%|██████████| 2/2 [00:00<00:00,  2.57it/s]
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 838.27it/s]
+Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+(EngineCore pid=88) WARNING 11-10 06:03:24 [utils.py:333] Attempted to load weight embed_tokens.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.0.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.0.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.0.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.0.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.0.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.0.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.1.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.1.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.1.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.1.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.1.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.1.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.10.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.10.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.10.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.10.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.10.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.10.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.11.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.11.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.11.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.11.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.11.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.11.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.12.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.12.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.12.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.12.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.12.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:27 [utils.py:333] Attempted to load weight layers.12.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.13.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.13.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.13.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.13.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.13.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.13.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.14.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.14.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.14.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.14.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.14.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.14.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.15.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.15.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.15.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.15.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.15.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.15.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.16.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.16.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.16.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.16.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.16.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.16.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.17.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.17.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.17.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.17.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.17.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.17.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.18.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.18.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.18.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.18.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.18.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.18.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.19.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.19.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.19.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.19.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.19.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.19.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.2.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.2.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.2.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.2.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.2.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.2.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.20.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.20.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.20.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.20.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.20.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.20.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.21.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.21.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.21.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.21.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.21.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.21.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.22.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.22.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.22.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.22.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.22.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.22.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.23.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.23.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.23.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.23.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.23.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.23.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.24.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.24.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.24.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.24.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.24.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.24.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.25.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:28 [utils.py:333] Attempted to load weight layers.25.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.25.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.25.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.25.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.25.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.26.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.26.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.26.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.26.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.26.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.26.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.27.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.27.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.27.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.27.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.27.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.27.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.28.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.28.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.28.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.28.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.28.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.28.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.29.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.29.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.29.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.29.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.29.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.29.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.3.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.3.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.3.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.3.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.3.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.3.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.30.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.30.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.30.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.30.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.30.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.30.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.31.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.31.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.31.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.31.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.31.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.31.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.32.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.32.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.32.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.32.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.32.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.32.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.33.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.33.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.33.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.33.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.33.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.33.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.34.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.34.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.34.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.34.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.34.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.34.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.35.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.35.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.35.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.35.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.35.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.35.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.4.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.4.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.4.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.4.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.4.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.4.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.5.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:29 [utils.py:333] Attempted to load weight layers.5.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.5.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.5.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.5.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.5.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.6.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.6.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.6.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.6.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.6.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.6.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.7.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.7.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.7.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.7.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.7.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.7.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.8.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.8.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.8.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.8.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.8.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.8.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.9.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.9.mlp.down_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.9.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.9.self_attn.k_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.9.self_attn.o_proj.scales with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight layers.9.self_attn.q_norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:06<00:06,  6.11s/it]
+(EngineCore pid=88) WARNING 11-10 06:03:30 [utils.py:333] Attempted to load weight lm_head.weight with dtype torch.bfloat16 into parameter with dtype torch.float16
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:06<00:00,  2.93s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:06<00:00,  3.40s/it]
+
+(EngineCore pid=88) WARNING 11-10 06:03:34 [torch_utils.py:283] OMP_NUM_THREADS=8 is set; leaving Torch threads at 8 for serving. Multi-threaded torch CPU ops during serving can degrade performance through spin-wait contention and cgroup CPU-quota throttling.
+Capturing CUDA graphs (PIECEWISE):   0%|          | 0/51 [00:00<?, ?it/s]Capturing CUDA graphs (PIECEWISE):   2%|▏         | 1/51 [00:00<00:12,  4.08it/s]Capturing CUDA graphs (PIECEWISE):   4%|▍         | 2/51 [00:00<00:11,  4.26it/s]Capturing CUDA graphs (PIECEWISE):   6%|▌         | 3/51 [00:00<00:10,  4.43it/s]Capturing CUDA graphs (PIECEWISE):   8%|▊         | 4/51 [00:00<00:10,  4.48it/s]Capturing CUDA graphs (PIECEWISE):  10%|▉         | 5/51 [00:01<00:09,  4.62it/s]Capturing CUDA graphs (PIECEWISE):  12%|█▏        | 6/51 [00:01<00:09,  4.70it/s]Capturing CUDA graphs (PIECEWISE):  14%|█▎        | 7/51 [00:01<00:09,  4.77it/s]Capturing CUDA graphs (PIECEWISE):  16%|█▌        | 8/51 [00:01<00:08,  4.82it/s]Capturing CUDA graphs (PIECEWISE):  18%|█▊        | 9/51 [00:01<00:08,  4.96it/s]Capturing CUDA graphs (PIECEWISE):  20%|█▉        | 10/51 [00:02<00:08,  5.05it/s]Capturing CUDA graphs (PIECEWISE):  22%|██▏       | 11/51 [00:02<00:07,  5.12it/s]Capturing CUDA graphs (PIECEWISE):  24%|██▎       | 12/51 [00:02<00:07,  5.20it/s]Capturing CUDA graphs (PIECEWISE):  25%|██▌       | 13/51 [00:02<00:07,  5.33it/s]Capturing CUDA graphs (PIECEWISE):  27%|██▋       | 14/51 [00:02<00:06,  5.43it/s]Capturing CUDA graphs (PIECEWISE):  29%|██▉       | 15/51 [00:03<00:06,  5.54it/s]Capturing CUDA graphs (PIECEWISE):  31%|███▏      | 16/51 [00:03<00:06,  5.58it/s]Capturing CUDA graphs (PIECEWISE):  33%|███▎      | 17/51 [00:03<00:05,  6.08it/s]Capturing CUDA graphs (PIECEWISE):  35%|███▌      | 18/51 [00:03<00:05,  6.52it/s]Capturing CUDA graphs (PIECEWISE):  37%|███▋      | 19/51 [00:03<00:04,  6.81it/s]Capturing CUDA graphs (PIECEWISE):  39%|███▉      | 20/51 [00:03<00:04,  7.12it/s]Capturing CUDA graphs (PIECEWISE):  41%|████      | 21/51 [00:03<00:04,  7.37it/s]Capturing CUDA graphs (PIECEWISE):  43%|████▎     | 22/51 [00:03<00:03,  7.59it/s]Capturing CUDA graphs (PIECEWISE):  45%|████▌     | 23/51 [00:04<00:03,  7.75it/s]Capturing CUDA graphs (PIECEWISE):  47%|████▋     | 24/51 [00:04<00:03,  8.01it/s]Capturing CUDA graphs (PIECEWISE):  49%|████▉     | 25/51 [00:04<00:03,  8.48it/s]Capturing CUDA graphs (PIECEWISE):  51%|█████     | 26/51 [00:04<00:02,  8.71it/s]Capturing CUDA graphs (PIECEWISE):  53%|█████▎    | 27/51 [00:04<00:02,  8.91it/s]Capturing CUDA graphs (PIECEWISE):  55%|█████▍    | 28/51 [00:04<00:02,  9.08it/s]Capturing CUDA graphs (PIECEWISE):  57%|█████▋    | 29/51 [00:04<00:02,  9.28it/s]Capturing CUDA graphs (PIECEWISE):  59%|█████▉    | 30/51 [00:04<00:02,  9.43it/s]Capturing CUDA graphs (PIECEWISE):  63%|██████▎   | 32/51 [00:05<00:01,  9.72it/s]Capturing CUDA graphs (PIECEWISE):  65%|██████▍   | 33/51 [00:05<00:01,  9.33it/s]Capturing CUDA graphs (PIECEWISE):  69%|██████▊   | 35/51 [00:05<00:01,  9.67it/s]Capturing CUDA graphs (PIECEWISE):  73%|███████▎  | 37/51 [00:05<00:01,  9.88it/s]Capturing CUDA graphs (PIECEWISE):  75%|███████▍  | 38/51 [00:05<00:01,  9.62it/s]Capturing CUDA graphs (PIECEWISE):  76%|███████▋  | 39/51 [00:05<00:01,  9.68it/s]Capturing CUDA graphs (PIECEWISE):  78%|███████▊  | 40/51 [00:05<00:01,  9.71it/s]Capturing CUDA graphs (PIECEWISE):  82%|████████▏ | 42/51 [00:06<00:00, 10.16it/s]Capturing CUDA graphs (PIECEWISE):  86%|████████▋ | 44/51 [00:06<00:00, 10.31it/s]Capturing CUDA graphs (PIECEWISE):  90%|█████████ | 46/51 [00:06<00:00, 10.59it/s]Capturing CUDA graphs (PIECEWISE):  94%|█████████▍| 48/51 [00:06<00:00, 10.68it/s]Capturing CUDA graphs (PIECEWISE):  98%|█████████▊| 50/51 [00:06<00:00, 10.83it/s]Capturing CUDA graphs (PIECEWISE): 100%|██████████| 51/51 [00:06<00:00,  7.47it/s]
+Capturing CUDA graphs (FULL):   0%|          | 0/2 [00:00<?, ?it/s]Capturing CUDA graphs (FULL):  50%|█████     | 1/2 [00:00<00:00,  9.67it/s]Capturing CUDA graphs (FULL): 100%|██████████| 2/2 [00:00<00:00,  9.79it/s]Capturing CUDA graphs (FULL): 100%|██████████| 2/2 [00:00<00:00,  9.74it/s]
+2026-11-10 06:04:52,845 - INFO - core.py:564 - flashinfer.jit: Building JIT module sampling; this can take several minutes on first use.
+Capturing CUDA graphs (PIECEWISE):   0%|          | 0/51 [00:00<?, ?it/s]Capturing CUDA graphs (PIECEWISE):   2%|▏         | 1/51 [00:00<00:11,  4.44it/s]Capturing CUDA graphs (PIECEWISE):   4%|▍         | 2/51 [00:00<00:10,  4.53it/s]Capturing CUDA graphs (PIECEWISE):   6%|▌         | 3/51 [00:00<00:10,  4.56it/s]Capturing CUDA graphs (PIECEWISE):   8%|▊         | 4/51 [00:00<00:10,  4.61it/s]Capturing CUDA graphs (PIECEWISE):  10%|▉         | 5/51 [00:01<00:09,  4.73it/s]Capturing CUDA graphs (PIECEWISE):  12%|█▏        | 6/51 [00:01<00:09,  4.78it/s]Capturing CUDA graphs (PIECEWISE):  14%|█▎        | 7/51 [00:01<00:09,  4.83it/s]Capturing CUDA graphs (PIECEWISE):  16%|█▌        | 8/51 [00:01<00:08,  4.86it/s]Capturing CUDA graphs (PIECEWISE):  18%|█▊        | 9/51 [00:01<00:08,  5.00it/s]Capturing CUDA graphs (PIECEWISE):  20%|█▉        | 10/51 [00:02<00:08,  5.11it/s]Capturing CUDA graphs (PIECEWISE):  22%|██▏       | 11/51 [00:02<00:07,  5.20it/s]Capturing CUDA graphs (PIECEWISE):  24%|██▎       | 12/51 [00:02<00:07,  5.29it/s]Capturing CUDA graphs (PIECEWISE):  25%|██▌       | 13/51 [00:02<00:06,  5.47it/s]Capturing CUDA graphs (PIECEWISE):  27%|██▋       | 14/51 [00:02<00:06,  5.58it/s]Capturing CUDA graphs (PIECEWISE):  29%|██▉       | 15/51 [00:02<00:06,  5.69it/s]Capturing CUDA graphs (PIECEWISE):  31%|███▏      | 16/51 [00:03<00:06,  5.78it/s]Capturing CUDA graphs (PIECEWISE):  33%|███▎      | 17/51 [00:03<00:05,  6.45it/s]Capturing CUDA graphs (PIECEWISE):  35%|███▌      | 18/51 [00:03<00:04,  6.92it/s]Capturing CUDA graphs (PIECEWISE):  37%|███▋      | 19/51 [00:03<00:04,  7.27it/s]Capturing CUDA graphs (PIECEWISE):  39%|███▉      | 20/51 [00:03<00:04,  7.53it/s]Capturing CUDA graphs (PIECEWISE):  41%|████      | 21/51 [00:03<00:03,  7.75it/s]Capturing CUDA graphs (PIECEWISE):  43%|████▎     | 22/51 [00:03<00:03,  7.91it/s]Capturing CUDA graphs (PIECEWISE):  45%|████▌     | 23/51 [00:03<00:03,  8.07it/s]Capturing CUDA graphs (PIECEWISE):  47%|████▋     | 24/51 [00:04<00:03,  8.22it/s]Capturing CUDA graphs (PIECEWISE):  49%|████▉     | 25/51 [00:04<00:03,  8.53it/s]Capturing CUDA graphs (PIECEWISE):  51%|█████     | 26/51 [00:04<00:02,  8.74it/s]Capturing CUDA graphs (PIECEWISE):  53%|█████▎    | 27/51 [00:04<00:02,  8.98it/s]Capturing CUDA graphs (PIECEWISE):  55%|█████▍    | 28/51 [00:04<00:02,  9.14it/s]Capturing CUDA graphs (PIECEWISE):  57%|█████▋    | 29/51 [00:04<00:02,  9.32it/s]Capturing CUDA graphs (PIECEWISE):  59%|█████▉    | 30/51 [00:04<00:02,  9.44it/s]Capturing CUDA graphs (PIECEWISE):  61%|██████    | 31/51 [00:04<00:02,  9.58it/s]Capturing CUDA graphs (PIECEWISE):  65%|██████▍   | 33/51 [00:04<00:01,  9.57it/s]Capturing CUDA graphs (PIECEWISE):  67%|██████▋   | 34/51 [00:05<00:01,  9.67it/s]Capturing CUDA graphs (PIECEWISE):  71%|███████   | 36/51 [00:05<00:01,  9.98it/s]Capturing CUDA graphs (PIECEWISE):  75%|███████▍  | 38/51 [00:05<00:01, 10.25it/s]Capturing CUDA graphs (PIECEWISE):  78%|███████▊  | 40/51 [00:05<00:01, 10.42it/s]Capturing CUDA graphs (PIECEWISE):  82%|████████▏ | 42/51 [00:05<00:00, 10.59it/s]Capturing CUDA graphs (PIECEWISE):  86%|████████▋ | 44/51 [00:06<00:00, 10.72it/s]Capturing CUDA graphs (PIECEWISE):  90%|█████████ | 46/51 [00:06<00:00, 10.83it/s]Capturing CUDA graphs (PIECEWISE):  94%|█████████▍| 48/51 [00:06<00:00, 10.93it/s]Capturing CUDA graphs (PIECEWISE):  98%|█████████▊| 50/51 [00:06<00:00, 11.05it/s]Capturing CUDA graphs (PIECEWISE): 100%|██████████| 51/51 [00:06<00:00,  7.68it/s]
+Capturing CUDA graphs (FULL):   0%|          | 0/35 [00:00<?, ?it/s]Capturing CUDA graphs (FULL):   3%|▎         | 1/35 [00:00<00:03,  9.95it/s]Capturing CUDA graphs (FULL):   6%|▌         | 2/35 [00:00<00:03,  9.73it/s]Capturing CUDA graphs (FULL):   9%|▊         | 3/35 [00:00<00:03,  9.62it/s]Capturing CUDA graphs (FULL):  11%|█▏        | 4/35 [00:00<00:03,  9.59it/s]Capturing CUDA graphs (FULL):  14%|█▍        | 5/35 [00:00<00:03,  9.64it/s]Capturing CUDA graphs (FULL):  17%|█▋        | 6/35 [00:00<00:03,  9.58it/s]Capturing CUDA graphs (FULL):  23%|██▎       | 8/35 [00:00<00:02,  9.84it/s]Capturing CUDA graphs (FULL):  29%|██▊       | 10/35 [00:00<00:02, 10.42it/s]Capturing CUDA graphs (FULL):  34%|███▍      | 12/35 [00:01<00:02, 10.78it/s]Capturing CUDA graphs (FULL):  40%|████      | 14/35 [00:01<00:01, 11.14it/s]Capturing CUDA graphs (FULL):  46%|████▌     | 16/35 [00:01<00:01, 11.51it/s]Capturing CUDA graphs (FULL):  51%|█████▏    | 18/35 [00:01<00:01, 11.98it/s]Capturing CUDA graphs (FULL):  57%|█████▋    | 20/35 [00:01<00:01, 12.21it/s]Capturing CUDA graphs (FULL):  63%|██████▎   | 22/35 [00:01<00:01, 12.42it/s]Capturing CUDA graphs (FULL):  69%|██████▊   | 24/35 [00:02<00:00, 12.56it/s]Capturing CUDA graphs (FULL):  74%|███████▍  | 26/35 [00:02<00:00, 12.87it/s]Capturing CUDA graphs (FULL):  80%|████████  | 28/35 [00:02<00:00, 13.05it/s]Capturing CUDA graphs (FULL):  86%|████████▌ | 30/35 [00:02<00:00, 13.27it/s]Capturing CUDA graphs (FULL):  91%|█████████▏| 32/35 [00:02<00:00, 12.26it/s]Capturing CUDA graphs (FULL):  97%|█████████▋| 34/35 [00:02<00:00, 12.76it/s]Capturing CUDA graphs (FULL): 100%|██████████| 35/35 [00:02<00:00, 11.80it/s]
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 914.57it/s]
+(APIServer pid=6) WARNING 11-10 06:06:54 [model.py:1893] Default vLLM sampling parameters have been overridden by the model's `generation_config.json`: `{'temperature': 0.6, 'top_k': 20, 'top_p': 0.95}`. If this is not intended, please relaunch vLLM instance with `--generation-config vllm`.
+INFO:     Started server process [6]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:58191 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64322 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16316 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44397 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64959 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37869 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55512 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64644 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37926 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56618 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50020 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63498 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51247 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23048 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28413 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19660 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30478 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49379 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32636 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28989 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35292 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50326 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48103 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:24495 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48200 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46707 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17023 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19304 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:29744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64322 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16316 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22899 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37869 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64959 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37926 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17558 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55512 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44397 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56618 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50020 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63498 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30478 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17023 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64644 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51247 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23048 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19660 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35292 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48103 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19304 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:29744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28989 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16316 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64959 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64322 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55512 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46707 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32636 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48200 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49379 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22899 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37926 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:24495 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30478 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50326 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17023 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63498 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56618 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23048 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17558 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35292 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28413 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44397 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50020 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55512 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28989 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48103 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19660 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:29744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37869 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64322 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64644 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64959 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17023 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:24495 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51247 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16316 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49379 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48200 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37926 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46707 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35292 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63498 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56618 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32636 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22899 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50326 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17558 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44397 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48103 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50020 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37869 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30478 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55512 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19304 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64322 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23048 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17023 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51247 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19660 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49379 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:29744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:24495 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35292 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28989 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64644 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64959 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28413 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37926 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56618 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46707 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16316 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48200 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37869 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50326 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17558 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32636 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48103 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22899 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19304 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50020 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44397 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30478 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63498 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64322 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51247 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:24495 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49379 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23048 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17023 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50326 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35292 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64959 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56618 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55512 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32636 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64644 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46707 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22899 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19660 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:29744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28989 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28413 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17558 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48103 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37926 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50020 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49379 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16316 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19304 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30478 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:24495 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48200 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37869 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44397 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23048 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51247 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63498 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64959 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64322 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50326 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28989 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56618 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32636 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28413 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35292 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19660 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17023 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46707 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55512 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64644 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48103 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22899 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19304 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48200 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50020 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49379 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17558 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30478 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:24495 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28413 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:29744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23048 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37926 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19660 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32636 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51247 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16316 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50326 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63498 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55512 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17023 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56618 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48103 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44397 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35292 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19304 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64322 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64644 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28989 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37869 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64959 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50020 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46707 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22899 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28413 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48200 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19660 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30478 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37926 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16316 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:29744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50326 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17023 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23048 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32636 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51247 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64644 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55512 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48103 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44397 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35292 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28989 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17558 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49379 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64959 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37869 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19304 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:24495 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63498 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46707 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64322 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28413 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50020 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56618 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37926 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16316 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22899 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32636 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51247 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48103 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19660 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30478 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:29744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37869 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35292 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50326 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19304 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23048 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64644 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17023 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55512 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64959 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48200 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28413 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50020 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17558 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37926 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44397 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22899 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28989 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:24495 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32636 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63498 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16316 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49379 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46707 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56618 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64322 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51247 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37869 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35292 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30478 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19304 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64644 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48103 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23048 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55512 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64959 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37926 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19660 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50326 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32636 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48200 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16316 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17023 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:29744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28989 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63498 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22899 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44397 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50020 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56618 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:24495 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35292 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49379 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17558 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50326 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30478 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28413 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37869 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51247 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55512 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37926 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64959 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46707 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64322 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16316 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17023 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19304 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23048 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19660 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:29744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48103 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22899 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64644 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49379 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48200 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32636 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44397 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50020 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30478 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28413 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64959 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56618 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51247 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:24495 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17558 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50326 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28989 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55512 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63498 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35292 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37869 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37926 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64322 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16316 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17023 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48103 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19660 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19304 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23048 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48200 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46707 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:29744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22899 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64959 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49379 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32636 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51247 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50020 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28413 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17023 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44397 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28989 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64644 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50326 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37869 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64322 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37926 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:24495 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48103 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55512 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17558 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35292 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19304 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46707 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48200 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22899 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30478 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56618 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:29744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49379 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64959 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23048 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19660 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28989 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:24495 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51247 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55512 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44397 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35292 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28413 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37926 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:29744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32636 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64644 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64322 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63498 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16316 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17023 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46707 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48200 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56618 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48103 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50326 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37869 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50020 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17558 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49379 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30478 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23048 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51247 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55512 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64959 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19304 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35292 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22899 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28989 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:24495 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37869 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50020 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28413 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44397 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:29744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19660 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32636 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64644 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63498 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37926 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17023 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50326 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48200 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51247 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23048 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56618 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49379 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64322 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16316 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30478 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48103 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35292 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17558 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46707 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19304 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55512 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64959 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19660 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22899 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44397 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17023 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64644 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37926 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37869 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50020 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50326 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23048 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28989 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:24495 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28413 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:29744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64322 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49379 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16316 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51247 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63498 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32636 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30478 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56618 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48200 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:31761 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51287 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22381 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30340 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64110 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45283 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45443 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47967 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54132 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16990 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23855 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30477 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42971 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:25384 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37273 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:31373 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53527 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59760 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41361 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30977 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22254 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38654 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23855 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:31761 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43091 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51287 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16990 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45443 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54132 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30477 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27539 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64110 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42971 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:25384 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47967 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37273 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57887 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38654 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:31373 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30977 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22254 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23855 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53474 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43091 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51287 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17480 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30477 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30340 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27539 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54132 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16990 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64110 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41361 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53527 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22381 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45283 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61353 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59760 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:31373 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38654 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39132 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42971 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30340 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:31761 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37273 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30977 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22254 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30477 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53474 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57887 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43091 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51287 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61353 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17480 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53527 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41361 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64110 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39132 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38654 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:25384 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16990 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27539 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30340 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54132 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22381 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45283 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43091 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30477 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53474 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42971 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41361 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37273 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57887 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45443 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64110 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59760 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:25384 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23855 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51287 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16990 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47967 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17480 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61353 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30340 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30977 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43091 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:31761 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22254 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38654 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53527 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22381 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54132 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30477 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:25384 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53474 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16990 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23855 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27539 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37273 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:31761 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47967 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45443 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39132 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22381 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51287 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17480 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22254 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:31373 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61353 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30977 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42971 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53474 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30340 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:25384 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43091 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23855 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57887 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41361 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54132 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59760 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53527 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47967 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16990 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51287 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30477 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64110 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22254 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27539 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37273 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38654 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22381 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:31761 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39132 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41361 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17480 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42971 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:31373 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54132 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53474 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47967 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43091 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45283 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61353 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38654 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45443 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30977 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23855 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53527 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30477 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30340 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51287 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16990 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42971 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27539 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37273 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41361 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61353 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59760 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54132 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17480 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64110 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53474 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22254 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57887 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53527 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51287 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22381 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23855 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:25384 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:31373 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43091 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30340 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59760 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:31761 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47967 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42971 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30477 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45283 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30977 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45443 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61353 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53474 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62723 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16990 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62154 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27539 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54132 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51287 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38654 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64110 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53527 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17480 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57887 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22254 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22381 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41361 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43091 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35744 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37273 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47967 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30477 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42971 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39132 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:31761 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45283 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:31373 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:25384 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23855 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59760 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30340 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:21811 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59182 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47551 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33781 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61899 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36223 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50279 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45536 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60079 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42800 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57482 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37785 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44691 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27189 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45083 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33217 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50056 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53346 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59182 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56609 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:26824 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:26824 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61542 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33253 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63898 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:31773 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:18845 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:29206 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:20764 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:21625 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45922 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30857 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:21625 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40788 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:18493 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59333 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59140 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:18119 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:18738 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36593 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53267 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:29531 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46381 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17612 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30633 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16528 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63131 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59216 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:18020 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65143 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:20823 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17360 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17360 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42583 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36981 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36981 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53170 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53661 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:18617 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39565 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33198 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61771 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51313 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45417 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:31786 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:25660 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41706 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56990 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16767 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16767 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48388 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16767 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19576 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64279 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60878 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22624 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19001 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57129 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:18864 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59605 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56153 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16596 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23974 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23974 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23974 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54367 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41908 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19011 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35710 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41908 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:25410 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55485 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22023 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16659 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60093 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48627 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63904 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16153 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:21834 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37410 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59459 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46801 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55508 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33216 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35431 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59459 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23952 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36055 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:31428 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45494 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57662 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56099 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:20898 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41955 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17909 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39495 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39495 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28758 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45449 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28758 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60211 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43539 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43539 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34918 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17125 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17125 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34918 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57265 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56611 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34918 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56611 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48942 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30878 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43704 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:26422 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43588 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16999 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30184 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53532 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46548 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61646 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:21230 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64823 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36117 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58462 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:25959 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:20997 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64356 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57311 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56201 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:31114 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64210 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45899 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22924 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57311 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64210 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64210 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54666 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54666 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34931 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:25710 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60352 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:20169 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52649 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17267 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55230 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58277 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48742 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44753 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48037 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40349 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53096 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64640 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19797 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27455 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50626 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50626 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39184 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46754 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55108 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40627 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28528 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62039 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40575 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39897 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59483 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40627 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34699 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42791 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33335 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23460 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40973 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46544 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28123 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28885 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36031 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44946 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:31384 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36804 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64747 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56331 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23725 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57093 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:29889 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64747 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56331 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:29889 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57093 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:17670 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49547 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50885 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57815 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62299 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19618 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:21122 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63774 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:21122 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48492 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37999 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39224 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53575 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:24437 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43634 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27411 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43826 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42985 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52505 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62645 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48362 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50046 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30546 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:24264 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:20670 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61606 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:29512 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27185 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64348 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53575 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36233 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28401 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:24264 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30546 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36233 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:31987 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:29580 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23190 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49287 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35693 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64772 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57916 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23435 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:26891 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48223 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51325 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30005 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52967 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30005 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30902 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:25611 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61525 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34450 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50090 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22303 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:25611 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47239 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59058 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32091 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43578 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:26818 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=6) WARNING 11-10 06:21:24 [utils.py:648] [shutdown] Process manager: force killing remaining processes count=1
+(APIServer pid=6) WARNING 11-10 06:21:24 [utils.py:653] [shutdown] Process manager: force killing remaining process EngineCore pid 88
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+/usr/local/lib/python3.12/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

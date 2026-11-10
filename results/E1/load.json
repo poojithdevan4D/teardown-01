@@ -1,0 +1,66 @@
+{
+ "levels": [
+  {
+   "rate": 0.25,
+   "requests": 80,
+   "errors": 0,
+   "wall_s": 288.39552665400004,
+   "ttft_p50": 0.608716288499977,
+   "ttft_p95": 1.0187471621500772,
+   "tpot_p50": 0.03576748763675221,
+   "tpot_p95": 0.07348897808629155,
+   "e2e_p95": 5.525354623049907,
+   "out_tok_per_s": 17.947573806197973,
+   "mean_out_tokens": 64.7,
+   "passes": true,
+   "passes_relaxed": true
+  },
+  {
+   "rate": 0.5,
+   "requests": 80,
+   "errors": 0,
+   "wall_s": 144.76208633499994,
+   "ttft_p50": 0.09869737700000769,
+   "ttft_p95": 0.12123506420000467,
+   "tpot_p50": 0.03506312782843206,
+   "tpot_p95": 0.0362719888828982,
+   "e2e_p95": 3.1026492140000754,
+   "out_tok_per_s": 36.59798041138809,
+   "mean_out_tokens": 66.225,
+   "passes": true,
+   "passes_relaxed": true
+  },
+  {
+   "rate": 1,
+   "requests": 90,
+   "errors": 0,
+   "wall_s": 87.55139659700012,
+   "ttft_p50": 0.10478901150008824,
+   "ttft_p95": 0.6668458646999056,
+   "tpot_p50": 0.0358696555198587,
+   "tpot_p95": 0.061667453723728095,
+   "e2e_p95": 4.592058841650054,
+   "out_tok_per_s": 68.24562750841062,
+   "mean_out_tokens": 66.38888888888889,
+   "passes": true,
+   "passes_relaxed": true
+  },
+  {
+   "rate": 1.5,
+   "requests": 135,
+   "errors": 0,
+   "wall_s": 92.7684882609999,
+   "ttft_p50": 0.11949082399996769,
+   "ttft_p95": 2.05145025889999,
+   "tpot_p50": 0.03828167340506459,
+   "tpot_p95": 0.23363022560773636,
+   "e2e_p95": 17.091192639100086,
+   "out_tok_per_s": 94.88135642822998,
+   "mean_out_tokens": 65.2,
+   "passes": false,
+   "passes_relaxed": false
+  }
+ ],
+ "capacity_rps": 1,
+ "capacity_relaxed_rps": 1
+}
