@@ -26,7 +26,7 @@ What it shows:
 ```bash
 pip install modal            # once
 modal setup                  # once, if this machine isn't logged in to Modal
-cd teardown-01
+
 modal run --detach teardown.py              # all runs in parallel, one GPU each
 modal run --detach teardown.py --only A,B   # or just some
 modal volume get teardown-results / results # fetch results when done
